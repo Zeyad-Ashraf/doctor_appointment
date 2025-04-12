@@ -1,0 +1,107 @@
+.my-appointments-main-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.my-appointemnts-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.doc-appointment-details {
+    display: flex;
+    align-items: center;
+    border-bottom: solid gray 3px;
+}
+
+
+.doc-image {
+    padding: 15px 0;
+}
+
+.doc-image img {
+    background-color: #6471ff;
+    border-radius: 5px;
+    height: 50%;
+    width: 75%;
+}
+
+.doc-image img:hover {
+    background-color: #0b1cd8;
+    transition-duration: 0.4s;
+}
+
+
+.doc-appointment-card-details {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.details-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: -70px;
+
+}
+
+.doc-appointment-name {
+    font-size: 30px;
+    margin: 10px 0 -10px;
+    font-weight: 600;
+}
+
+.doc-appointment-speciality {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.doc-appointment-address,
+.doc-appointment-time,
+.doc-appointment-address-p {
+    font-size: 20px;
+}
+
+.doc-appointment-address-p {
+    margin-bottom: -15px;
+    font-weight: 600;
+}
+
+
+.Pay-cancel-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Pay-cancel-buttons button {
+    height: 70px;
+    font-size: 18px;
+    background-color: #6471ff;
+}
+
+.Pay-cancel-buttons .cancel-button {
+    background-color: white;
+    color: red;
+    border: solid red 2px;
+
+}
+
+.Pay-cancel-buttons .cancel-button:hover {
+    background-color: red;
+    color: white;
+
+}
+
+.Pay-cancel-buttons .pay-button:hover {
+    background-color: #0b1cd8;
+
+}

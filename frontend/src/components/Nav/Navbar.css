@@ -1,0 +1,139 @@
+.main-nav-div {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-bottom: solid 1px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    ::selection {
+        background-color: #3C39AB;
+        color: white;
+    }
+}
+
+.site-logo p {
+    font-size: 25px;
+    color: #3C39AB;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.pages {
+    margin: 0 20px;
+}
+
+.pages-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.pages-list li {
+    color: black;
+}
+
+
+.pages-list li:hover {
+    color: #3C39AB;
+    cursor: pointer;
+}
+
+.listItem.active {
+    color: #3C39AB;
+}
+
+
+.sign-login {
+    display: flex;
+    gap: 20px;
+}
+
+.sign-login button {
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: #3C39AB;
+}
+
+
+.profile-pic-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.profile-pic {
+    width: 60px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+
+.list-f-div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 90px;
+    margin-right: -60px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(75, 85, 99);
+    z-index: 20;
+    display: none;
+}
+
+.profile-pic-div:hover .list-f-div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 90px;
+    margin-right: -60px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(75, 85, 99);
+    z-index: 20;
+    display: block !important;
+}
+
+
+.my-profile:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.my-appointments:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.logout:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+.list-s-div {
+    min-width: 12rem;
+    background-color: #f5f5f4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 16px;
+}
+
+/* @media (max-width:800px) {
+    .main-nav-div {
+        display: none;
+    }
+} */

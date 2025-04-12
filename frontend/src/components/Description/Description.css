@@ -1,0 +1,52 @@
+.dicription-section {
+    /* background-color: #3C39AB; */
+    background-image: linear-gradient(225deg, #3C39AB, #651fff);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 37px 0;
+    border-radius: 10px;
+    padding: 100px 80px 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+    ::selection {
+        background-color: blue;
+        color: white;
+    }
+}
+
+
+
+.p-1 {
+    color: white;
+    font-size: 65px;
+}
+
+
+.p-2 {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+}
+
+
+.p-2 button {
+    font-size: 25px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+    color: #3C39AB;
+    height: 90px;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.p-2 .booking-button .nav-icon {
+    font-size: 40px;
+}
+
+.p-2 button:hover {
+    background-color: #9e9e9e;
+}

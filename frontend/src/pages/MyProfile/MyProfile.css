@@ -1,0 +1,99 @@
+.myprofile-main-div,
+.user-name-input-div {
+    margin-top: 50px;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.myprofile-main-div hr {
+    margin: -15px 0 30px;
+}
+
+.user-name-input-div hr {
+    margin: 15px 0 30px;
+    width: 200%;
+
+}
+
+.user-name-input-div input {
+    margin-top: -25px;
+    border-radius: 6px;
+}
+
+.user-name {
+    font-size: 35px;
+}
+
+.user-name-input {
+    font-size: 35px;
+}
+
+.user-phone-input-div {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.user-phone-input-div input {
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.user-addres-input-div input {
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.user-gender-s-div select {
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.user-birthday-input-div input {
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+
+.contact-info,
+.basic-info {
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+.user-email-div,
+.user-phone-div,
+.user-address-div,
+.user-gender-div,
+.user-birthday-div {
+    display: flex;
+    gap: 75px;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.user-email,
+.user-phone {
+    color: blue;
+}
+
+.edit-button Button {
+    width: 150px;
+    margin-top: 10px;
+    font-size: 22px;
+    height: 50px;
+    background-color: #3C39AB;
+    border-radius: 50px;
+}
+
+.save-info-button Button {
+    width: 260px;
+    margin-top: 40px;
+    font-size: 22px;
+    height: 50px;
+    background-color: #3C39AB;
+    border-radius: 50px;
+
+}
